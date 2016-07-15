@@ -1,0 +1,36 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#header .navbar-default {
+  padding: 5px; }
+  #header .navbar-default .navbar-brand .titulo {
+    font-size: 25px; }
+
+#categories h4 {
+  display: inline; }
+#categories .dropdown {
+  display: inline;
+  margin-left: 10px; }
+
+#movies .pelis {
+  margin-top: 30px; }
+  #movies .pelis img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; }
+
+.modal video {
+  width: 100%;
+  height: auto !important; }
+.modal p {
+  margin-top: 20px; }
+.modal .subti {
+  font-size: 20px; }
+.modal .actores {
+  margin-top: 20px; }
+  .modal .actores img {
+    width: 80px; }
+  .modal .actores strong {
+    display: block; }
+
+/*# sourceMappingURL=main.css.map */

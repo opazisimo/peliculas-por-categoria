@@ -1,0 +1,61 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	.navbar-default {
+		padding: 5px;
+
+		.navbar-brand {
+			.titulo {
+				font-size: 25px;
+			}
+		}
+	}
+}
+
+#categories {
+	h4 {
+		display: inline;
+	}
+	.dropdown {
+		display: inline;
+		margin-left: 10px;
+	}
+}
+
+#movies {
+	.pelis {
+		margin-top: 30px;
+
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.modal {
+	video {
+		width: 100%;
+		height: auto !important;
+	}
+
+	p {
+		margin-top: 20px;
+	}
+	.subti {
+		font-size: 20px;
+	}
+	.actores {
+		margin-top: 20px;
+		img {
+			width:80px;
+		}
+		strong {
+			display: block;
+
+		}
+	}
+}

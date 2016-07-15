@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cine Melón</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Header -->
+	<section id="header">
+		<nav class="navbar navbar-default">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+						<span class="titulo text-danger">Cine Melón</span>
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#categories" class="text-danger">Categorías</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</section>
+<!-- Categorías -->
+	<section id="categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h4>Escoge una categoría:</h4>
+					<div class="dropdown">
+					  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Categorías
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#" onclick="mostrarTodas()">Todas</a></li>
+					    <li><a href="#" onclick="mostrarAccion()">Acción</a></li>
+					    <li><a href="#" onclick="mostrarComedia()">Comedia</a></li>
+					    <li><a href="#" onclick="mostrarCrimen()">Crimen</a></li>
+					    <li><a href="#" onclick="mostrarFamiliar()">Familiar</a></li>
+					    <li><a href="#" onclick="mostrarTerror()">Terror</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- Películas -->
+	<section id="movies">
+		<div class="container">
+			<div class="row pelis">
+				<div class="col-xs-4 col-md-2 text-center accion">
+					<img src="img/m1.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center familiar">
+					<img src="img/m2.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center comedia">
+					<img src="img/m3.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center terror">
+					<img src="img/m4.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center accion">
+					<img src="img/m5.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center crimen">
+					<img src="img/m6.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center terror">
+					<img src="img/m7.jpg" alt="movie " type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center crimen">
+					<img src="img/m8.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center familiar">
+					<img src="img/m9.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center crimen">
+					<img src="img/m10.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center comedia">
+					<img src="img/m11.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center accion">
+					<img src="img/m12.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center terror">
+					<img src="img/m13.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center comedia">
+					<img src="img/m14.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+				<div class="col-xs-4 col-md-2 text-center familiar">
+					<img src="img/m15.jpg" alt="movie" type="button" data-toggle="modal" data-target="#alice">
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- Modal -->
+						<div class="modal fade" id="alice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Alice in Wonderland</h4>
+						      </div>
+						      <div class="modal-body">
+						      	<video controls>
+										  <source src="img/trailer.mp4" type="video/mp4">
+										Your browser does not support the video tag.
+										</video>
+						        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sint minima sapiente inventore enim, explicabo ducimus voluptatum similique nam rerum sequi aspernatur, quisquam cumque ad nulla, provident optio. Laboriosam, id.</p>
+						        <p class="subti">Actores</p>
+
+						        <div class="row actores">
+						        	<div class="text-center col-xs-4">
+						        		<img src="img/act1.jpeg" class="img-circle" alt="actors">
+						        		<strong>Pedro Navaja</strong>
+						        	</div>
+						        	<div class="text-center col-xs-4">
+						        		<img src="img/act2.jpeg" class="img-circle" alt="actors">
+						        		<strong>Pedro Navaja</strong>
+						        	</div>
+						        	<div class="text-center col-xs-4">
+						        		<img src="img/act3.png" class="img-circle" alt="actors">
+						        		<strong>Pedro Navaja</strong>
+						        	</div>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
